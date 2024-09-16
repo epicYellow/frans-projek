@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-primary: #04233c;
+  --color-secondary: #586c84;
+  --color-tertiaty: #99a0a3;
+}
+
+a {
+  @apply text-red-700 cursor-pointer;
+}
+
+a:hover {
+  @apply shadow-sm;
+}
+
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+input{
+  @apply p-1 px-2
+}
